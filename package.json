@@ -1,0 +1,22 @@
+{
+  "name": "frontloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec 'node --expose-http2' index.js"
+  },
+  "engines": {
+    "node": "^8.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-cert": "^1.0.6",
+    "rollup": "^0.49.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  }
+}
